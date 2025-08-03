@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:320
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTINF:320.000000,
+https://res.cloudinary.com/prisztok/video/upload/stahl_konyhaja1.ts
+#EXTINF:308.776489,
+https://res.cloudinary.com/prisztok/video/upload/stahl_konyhaja2.ts
+#EXT-X-ENDLIST
