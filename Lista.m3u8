@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:3599,top_shop_2008_07_25.m3u8
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/Prisztokotto/Germ-n-Birtok/refs/heads/main/Stream/top_shop_2008_07_25.m3u8
+#EXTINF:628,stahl_konyhaja1.m3u8
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/Prisztokotto/Germ-n-Birtok/refs/heads/main/Stream/stahl_konyhaja1.m3u8
