@@ -1,0 +1,13 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:610
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTINF:609.986978,
+https://res.cloudinary.com/prisztok/video/upload/gyozike_show_30_resz1.ts
+#EXTINF:599.999044,
+https://res.cloudinary.com/prisztok/video/upload/gyozike_show_30_resz2.ts
+#EXTINF:600.000000,
+https://res.cloudinary.com/prisztok/video/upload/gyozike_show_30_resz3.ts
+#EXTINF:473.777800,
+https://res.cloudinary.com/prisztok/video/upload/gyozike_show_30_resz4.ts
+#EXT-X-ENDLIST
