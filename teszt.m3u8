@@ -1,3 +1,0 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/Prisztokotto/Germ-n-Birtok/refs/heads/main/Stream/gyozike_show_30_epg.xml"
-#EXTINF:-1 tvg-id="sajat_tv" tvg-name="Saját TV" tvg-logo="http://yourdomain.com/logo.png", Saját TV
-https://raw.githubusercontent.com/Prisztokotto/Germ-n-Birtok/refs/heads/main/Stream/gyozike_show_30.m3u8
