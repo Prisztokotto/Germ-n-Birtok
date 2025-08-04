@@ -1,9 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:445
 #EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:445.345000,
+#EXTINF:0,
 https://res.cloudinary.com/prisztok/video/upload/csenki_patrik_MyVIP1.ts
-#EXTINF:444.577367,
+#EXTINF:0,
 https://res.cloudinary.com/prisztok/video/upload/csenki_patrik_MyVIP2.ts
 #EXT-X-ENDLIST
