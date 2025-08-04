@@ -4,10 +4,10 @@
 #EXT-X-MEDIA-SEQUENCE:1
 #EXTINF:0.000000,
 https://res.cloudinary.com/prisztok/video/upload/v1754308733/74MTy.aaa1.ts
-#EXTINF:0.760000,
+#EXTINF:0.000000,
 74MTy.aaa2.ts
-#EXTINF:0.560000,
+#EXTINF:0.000000,
 74MTy.aaa3.ts
-#EXTINF:0.200000,
+#EXTINF:0.000000,
 74MTy.aaa4.ts
 #EXT-X-ENDLIST
