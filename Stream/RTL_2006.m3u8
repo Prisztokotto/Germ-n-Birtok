@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:300
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTINF:300.000000,
+https://res.cloudinary.com/prisztok/video/upload/RTL_2006_001.ts
+#EXTINF:148.878622,
+https://res.cloudinary.com/prisztok/video/upload/RTL_2006_002.ts
+#EXT-X-ENDLIST
