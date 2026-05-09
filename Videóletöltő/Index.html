@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Universal Video Downloader</h1>
+        <div class="input-group">
+            <input type="text" id="videoUrl" placeholder="Enter video URL (YouTube, Facebook, Instagram, TikTok, Videa, Indavideó)">
+            <button id="downloadBtn">Download</button>
+        </div>
+        <div class="options-group">
+            <label for="resolution">Felbontás:</label>
+            <select id="resolution">
+                <option value="best">Legjobb elérhető</option>
+                <option value="1440p">1440p</option>
+                <option value="1080p">1080p</option>
+                <option value="720p">720p</option>
+                <option value="480p">480p</option>
+                <option value="360p">360p</option>
+                <option value="240p">240p</option>
+                <option value="144p">144p</option>
+            </select>
+
+            <label for="format">Formátum:</label>
+            <select id="format">
+                <option value="mp4">MP4 (Videó)</option>
+                <option value="mp3">MP3 (Hang)</option>
+                <option value="m4a">M4A (Hang)</option>
+                <option value="webm">WEBM (Videó)</option>
+            </select>
+        </div>
+        <div id="message" class="message"></div>
+        <div id="downloadLinkContainer" class="download-link-container" style="display:none;">
+            <a id="downloadLink" href="#" download>Kattintson ide a videó letöltéséhez</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
