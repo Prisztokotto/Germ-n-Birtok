@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JW Player első verzió</title>
+    
+    <!-- Ruffle beállítások a zökkenőmentes futtatáshoz -->
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            unsupported_content: "ignore",
+            allow_script_access: true,
+            autoplay: "off",
+            backgroundColor: "#000000"
+        };
+    </script>
+    <!-- Ruffle emulátor betöltése -->
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .player-box {
+            display: inline-block;
+            background: #000;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+        }
+        p.info {
+            color: #888;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-box">
+        <!-- Direct Raw GitHub SWF URL beágyazása -->
+        <object type="application/x-shockwave-flash" 
+                data="https://github.com/ifjprisztokotto/prisztok/raw/refs/heads/main/JW%20Player/player_elso_verzio.swf" 
+                width="640" 
+                height="480">
+            <param name="movie" value="https://github.com/ifjprisztokotto/prisztok/raw/refs/heads/main/JW%20Player/player_elso_verzio.swf" />
+            <param name="allowfullscreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            
+            <!-- MP4 videó megadása flashvars-ként -->
+            <param name="flashvars" value="file=https://github.com/ifjprisztokotto/prisztok/raw/refs/heads/main/JW%20Player/pelda.flv" />
+            
+            <embed src="https://github.com/ifjprisztokotto/prisztok/raw/refs/heads/main/JW%20Player/player_elso_verzio.swf" 
+                   flashvars="file=https://github.com/Prisztokotto/Germ-n-Birtok/raw/refs/heads/main/445142952.flv&autostart=false" 
+                   width="640" 
+                   height="480" 
+                   allowFullScreen="true" 
+                   allowScriptAccess="always" 
+                   type="application/x-shockwave-flash">
+            </embed>
+        </object>
+    </div>
+
+</body>
+</html>
